@@ -44,10 +44,6 @@ android {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    
-    lint {
-        disable 'InvalidPackage'
-    }
 }
 
 allprojects {
