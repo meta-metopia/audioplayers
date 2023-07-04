@@ -1,4 +1,4 @@
-name: audioplayers
+name: audioplayers_fix
 description: A Flutter plugin to play multiple audio files simultaneously
 version: 4.1.0
 homepage: https://github.com/bluefireteam/audioplayers
@@ -8,7 +8,7 @@ flutter:
   plugin:
     platforms:
       android:
-        default_package: audioplayers_android
+        default_package: audioplayers_android_fix
       ios:
         default_package: audioplayers_darwin
       linux:
@@ -21,7 +21,7 @@ flutter:
         default_package: audioplayers_windows
 
 dependencies:
-  audioplayers_android: ^3.0.2
+  audioplayers_android_fix: ^3.0.2
   audioplayers_darwin: ^4.1.0
   audioplayers_linux: ^2.1.0
   audioplayers_platform_interface: ^5.0.1

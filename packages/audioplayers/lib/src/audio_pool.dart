@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers_fix/audioplayers.dart';
 import 'package:flutter/foundation.dart';
 import 'package:synchronized/synchronized.dart';
 
